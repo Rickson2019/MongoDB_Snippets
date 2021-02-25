@@ -41,4 +41,10 @@ As an example, this is something you may see before deleting:
 
 remove the database user:
 
-`$
+`$ db.removeUser("poll_admin")`
+
+No message will be shown, but you will know that the user has already gone by :
+
+`$ show users`
+
+
